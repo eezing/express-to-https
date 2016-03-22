@@ -4,7 +4,7 @@
   "description": "\"Express middleware to properly redirect http requests to https using the x-forwarded-proto header.\"",
   "main": "lib/index.js",
   "scripts": {
-    "build:lib": "./node_modules/.bin/babel src -d lib --ignore *.spec.js",
+    "build:lib": "./node_modules/.bin/babel --presets es2015 --ignore *.spec.js src -d lib",
     "test": "npm run test:mocha",
     "test:mocha": "mocha --require babel-register test/all.test.js",
     "test:watch": "npm run test:mocha -- --watch",
