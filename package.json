@@ -6,7 +6,7 @@
   "scripts": {
     "build:lib": "./node_modules/.bin/babel src -d lib",
     "test": "npm run test:mocha",
-    "test:mocha": "mocha --require babel-register --recursive",
+    "test:mocha": "mocha --require babel-register test/all.test.js",
     "test:watch": "npm run test:mocha -- --watch",
     "prepublish": "npm run build:lib"
   },
