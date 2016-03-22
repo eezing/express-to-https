@@ -12,5 +12,4 @@ describe('index module exports', function() {
         // result
         expect(subject).to.be.equal(basic)
     })
-
 })

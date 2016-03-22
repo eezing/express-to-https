@@ -11,5 +11,4 @@ describe('basic module exports', function() {
         // result
         expect(subject).to.be.function
     })
-
 })
