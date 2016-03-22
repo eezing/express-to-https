@@ -1,0 +1,28 @@
+{
+  "name": "express-to-https",
+  "version": "1.0.0",
+  "description": "\"Express middleware to properly redirect http requests to https using the x-forwarded-proto header.\"",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eezing/express-to-https.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "https",
+    "redirect",
+    "forward",
+    "proto",
+    "header"
+  ],
+  "author": "Eric Zingeler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eezing/express-to-https/issues"
+  },
+  "homepage": "https://github.com/eezing/express-to-https#readme"
+}
