@@ -1,7 +1,7 @@
 {
   "name": "express-to-https",
   "version": "1.0.0",
-  "description": "\"Express middleware to properly redirect http requests to https using the x-forwarded-proto header.\"",
+  "description": "Express middleware to redirect http requests to https using the x-forwarded-proto header.",
   "main": "lib/index.js",
   "scripts": {
     "build:lib": "./node_modules/.bin/babel --ignore *.spec.js src -d lib",
