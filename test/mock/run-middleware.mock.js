@@ -12,8 +12,7 @@ module.exports = function(middleware, proto, host, url) {
     }
 
     var res = {
-        redirect: function(code, url) {
-            result.code = code
+        redirect: function(url) {
             result.redirect = url
         }
     }
