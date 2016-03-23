@@ -8,7 +8,9 @@
     "test": "npm run test:mocha",
     "test:mocha": "mocha --require babel-register test/all.test.js",
     "test:watch": "npm run test:mocha -- --watch",
-    "prepublish": "npm run build:lib"
+    "prepublish": "npm run build:lib",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
