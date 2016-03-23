@@ -1,6 +1,6 @@
 {
   "name": "express-to-https",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express middleware to redirect http requests to https using the x-forwarded-proto header.",
   "main": "lib/index.js",
   "scripts": {
